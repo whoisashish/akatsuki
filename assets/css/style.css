@@ -1,0 +1,190 @@
+*{
+	outline: none;
+}
+#app{
+	min-height: 100vh;
+}
+::selection {
+  color: white;
+  background: #e62429;
+}
+#linear{
+	cursor: auto!important;
+}
+.images{
+		width: 55px; 
+		height: 55px; 
+		border-radius: 50%;
+		margin-top: 5px;
+}
+
+.hero__title--absolute{
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.hero__title--mobile{
+	-webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#logIn{
+	background: transparent!important;
+}
+
+.flexBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#headerName{
+	color: #e62429;
+}
+#footerName{
+	color: #5f6368;
+	font-size: 20px;
+}
+#footerName:hover{
+	color: #e62429;
+}
+.imgContainer{
+	transition: all ease-in-out 1s;
+}
+.imgContainer:hover{
+	transform: rotate(360deg);
+}
+
+.myCard{
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+	background: #212020;
+	flex-basis: 30%;	
+	max-width: 415px;
+	box-sizing: border-box;
+	display: table-cell;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+.myCard:hover{
+	box-shadow: 0 0 10px 1px #323435;
+}
+.link.link--topic:hover{
+	color: #6e7075;
+}
+@media only screen and (max-width: 1024px){
+	.myCard{
+		flex-basis: 40%;
+	}
+}
+.resource__body{
+	margin-top: 10px;
+	min-height: 124px!important;
+}
+#home{
+	padding: 50px 80px 50px 80px;
+}
+#ashishLogin1{
+	color: white!important;
+}
+#ashishLogin1:hover{
+	background: #DC1C13;
+	color: white!important;
+}
+#ashishLogin1:active{
+	background: #DC1C13;
+	color: white!important;
+}
+#ashishLogin1:visited{
+	color: white!important;
+}
+#ashishLogin{
+	color: white!important;
+}
+#ashishLogin:hover{
+	background: #DC1C13;
+	color: white!important;
+}
+.myHeader{
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 5px 10px;
+}
+#map1{
+	visibility: hidden;
+}
+.myHeader button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	background-color: #1a1a1a;
+	border: 1px solid black;
+	z-index: 10;
+}
+#cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+}
+.resource__content {
+    	width: 100%!important;
+    	max-width: 400px;
+	}
+@media only screen and (max-width: 720px){
+	#cards{
+		flex-direction: column;
+	}
+	.myCard{
+		margin: 10px 0;
+	}
+}
+@media only screen and (max-width:1024px){
+	.images{
+		display: none;
+	}
+	.imgContainer{
+		display: none;
+	}
+	.page-nav__links>a{
+		padding: 16px 37px!important;
+	}
+	.sidebar{
+		display: none;
+	}
+	#home{
+		padding: 50px 25px 30px 25px;
+	}	
+	.resource__content {
+    	width: 100%!important;
+    	max-width: 400px;
+	}
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #e62429; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+@media only screen and (max-width:1024px){
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
