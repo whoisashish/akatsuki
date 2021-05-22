@@ -4323,10 +4323,16 @@ a.fab:hover .fab__icon {
 }
 
 .hero.hero--courses-dsa {
-    background: url(../images/it.jpg) no-repeat center center;
+    background: url(../images/it.webp) no-repeat center center;
     background-size: cover;
     color: #e8eaed;
     bottom: 0;
+}
+
+@media only screen and (max-width: 500px){
+    .hero.hero--courses-dsa{
+        background: url(../images/it-mobile.webp) no-repeat center center;
+    }
 }
 
 .hero.hero--courses-a {
@@ -4351,10 +4357,16 @@ a.fab:hover .fab__icon {
 }
 
 .hero.hero--courses-camp {
-    background: url(../images/ak.jpg) no-repeat center center;
+    background: url(../images/ak.webp) no-repeat center center;
     background-size: cover;
     color: #e8eaed;
     bottom: 0;
+}
+
+@media only screen and (max-width: 500px){
+    .hero.hero--courses-camp{
+        background: url(../images/ak-mobile.webp) no-repeat center center;
+    }
 }
 
 .hero.hero--courses-cwq {
@@ -4372,10 +4384,16 @@ a.fab:hover .fab__icon {
 }
 
 .hero.hero--courses-izg {
-    background: url(../images/id.jpg) no-repeat center center;
+    background: url(../images/id.webp) no-repeat center center;
     background-size: cover;
     color: #e8eaed;
     bottom: 0;
+}
+
+@media only screen and (max-width: 500px){
+    .hero.hero--courses-izg{
+        background: url(../images/id-mobile.webp) no-repeat center center;
+    }
 }
 
 .hero.hero--courses-interview {
